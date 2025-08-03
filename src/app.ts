@@ -7,7 +7,7 @@ app.get("/healthcheck", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to the simple" });
+  res.status(200).json({ message: "Welcome to the simple backend" });
 });
 
 export default app;
